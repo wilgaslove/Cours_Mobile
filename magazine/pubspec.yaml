@@ -1,0 +1,28 @@
+name: flutter_favoris
+description: Application de gestion d'endroits favoris (Riverpod + image_picker + uuid)
+publish_to: 'none'
+version: 1.0.0+1
+
+
+environment:
+sdk: ">=2.18.0 <4.0.0"
+
+
+dependencies:
+flutter:
+sdk: flutter
+flutter_riverpod: ^2.3.6
+uuid: ^4.2.0
+image_picker: ^0.8.7+6
+
+
+cupertino_icons: ^1.0.5
+
+
+dev_dependencies:
+flutter_test:
+sdk: flutter
+
+
+flutter:
+uses-material-design: true
