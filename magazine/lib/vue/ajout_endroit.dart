@@ -1,5 +1,3 @@
-// vue/ajout_endroit.dart
-
 
 class AjoutEndroit extends ConsumerStatefulWidget {
 const AjoutEndroit({super.key});

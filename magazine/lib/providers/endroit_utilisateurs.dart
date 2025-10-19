@@ -1,4 +1,3 @@
-// providers/endroits_utilisateurs.dart
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../modele/endroit.dart';
 
@@ -20,7 +19,7 @@ Endroit? getById(String id) => state.firstWhere((e) => e.id == id, orElse: () =>
 }
 
 
-// Provider global
+// Provider global  @Dr_Love
 final endroitsProvider = StateNotifierProvider<EndroitsUtilisateur, List<Endroit>>(
 (ref) => EndroitsUtilisateur(),
 );
