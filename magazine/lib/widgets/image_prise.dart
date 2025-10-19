@@ -1,4 +1,3 @@
-// widgets/image_prise.dart
 final void Function(File image) onPhotoSelectionne;
 
 

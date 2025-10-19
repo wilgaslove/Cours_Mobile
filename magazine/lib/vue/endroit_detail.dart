@@ -1,4 +1,3 @@
-// vue/endroit_detail.dart
 import 'package:flutter/material.dart';
 import '../modele/endroit.dart';
 
